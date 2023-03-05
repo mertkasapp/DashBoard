@@ -1,0 +1,144 @@
+:root{
+    --ligth-gray:#f8f8ff;
+    --darkest-blue:#1a194d;
+    --dark-blue:#62618f;
+    --orange:#ee4d38;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    height: 100%;
+    width: 260px;
+    flex-shrink: 0;
+    padding: 48px;
+    background-color: var(--ligth-gray);
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+}
+.profile img{
+width: 60px;
+border-radius: 9999px;
+}
+.profile-body h2{
+    font-size: 16px;
+    color: var(--darkest-blue);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.profile{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 7px 16px 8px 0;
+    color: var(--darkest-blue);
+}
+.nav-item:hover{
+    border-left:4px solid var(--orange);
+}
+.log{
+margin-top:135px;
+}
+nav{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main{
+    height: 100%;
+    flex: 1;
+    padding: 64px 72px;
+}
+main h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.main-wrapper{
+    display: flex;
+    gap: 62px;
+    align-items: flex-start;
+}
+.main-left-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    flex:1
+}
+.main-right-wrapper{
+background-color: var(--orange);
+padding: 32px;
+color: var(--ligth-gray);
+border-radius: 16px;
+
+}
+.main-right-wrapper .first-paragraf{
+    font-size: 16px;
+}
+.main-right-wrapper h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.main-right-wrapper button{
+    font-size: 16px;
+  background-color: #ee4d38;
+  color: white;
+    border:1px solid var(--ligth-gray);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+.main-left-wrapper h2{
+    color: var(--darkest-blue);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+table button{
+padding: 6px;
+border:1px solid darkgray;
+background-color: white;
+border-radius: 10px;
+}
+
+/* payment method kısmı style  */
+
+.section-content img{
+    width: 80px;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-content{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+.section-content button{
+    padding: 6px;
+border:1px solid darkgray;
+background-color: white;
+border-radius: 10px;
+}
+.section-content p{
+  flex: 1;
+}
